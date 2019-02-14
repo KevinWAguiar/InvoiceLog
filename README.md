@@ -1,0 +1,2 @@
+# InvoiceLog
+An application that extracts material information (vendor, invoice number, invoice date, etc.) from an invoice and returns a .csv file containing the information.  First, the application classifies which vendor is sending the bill (through predictive modeling).  Next, a vendor's invoice setup is 'created' and stored.  Finally, given which vendor sent the bill, the application extracts the information using OCR (pytesseract) and returns a .csv file containing the information.
